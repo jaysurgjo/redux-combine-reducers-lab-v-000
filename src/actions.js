@@ -1,12 +1,13 @@
-export function addBook(book) {
+export function addBook(book){
   return {
-    type: 'ADD_BOOK', payload: book
+    type: "ADD_BOOK",
+    payload: book
   }
 }
 
 export function addRecommendedBook(book) {
   return {
-    type: 'ADD_RECOMMENDED_BOOK',
+    type: "ADD_RECOMMENDED_BOOK",
     payload: book
   }
 }
@@ -18,10 +19,9 @@ export function removeBook(book) {
   }
 }
 
-
 export function removeRecommendedBook(book) {
   return {
-    type: 'REMOVE_RECOMMENDED_BOOK',
+    type: "REMOVE_RECOMMENDED_BOOK",
     payload: book
   }
 }
